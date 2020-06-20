@@ -1,0 +1,141 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/f6c7064a/
+BoilerHandler	../procre_template_writing.py	/^class BoilerHandler:$/;"	kind:class	line:118
+Form	../Project_creator_main.py	/^from ui_conf_dialog import Ui_Dialog as Form$/;"	kind:unknown	line:5
+GiLoadedTemplate	../procre_template_reading.py	/^class GiLoadedTemplate:$/;"	kind:class	line:10
+GiTemplateCrafter	../procre_template_writing.py	/^class GiTemplateCrafter:$/;"	kind:class	line:15
+MainWindow	../Project_creator_main.py	/^    MainWindow = QtWidgets.QMainWindow()$/;"	kind:variable	line:486
+ProjectCreatorMainGUI	../Project_creator_main.py	/^class ProjectCreatorMainGUI(basegui.Ui_MainWindow):$/;"	kind:class	line:27
+Project_creator_main.py	../Project_creator_main.py	1;"	kind:file	line:1
+Ui_Dialog	../ui_conf_dialog.py	/^class Ui_Dialog(object):$/;"	kind:class	line:19
+Ui_MainWindow	../ui_project_creator.py	/^class Ui_MainWindow(object):$/;"	kind:class	line:18
+__init__	../Project_creator_main.py	/^    def __init__(self, MainWindow):$/;"	kind:member	line:29
+__init__	../procre_template_reading.py	/^    def __init__(self, in_template: str, in_project_name: str, object_triumvirate_list):$/;"	kind:member	line:11
+__init__	../procre_template_writing.py	/^    def __init__(self, in_template_name: str, in_template_type: str, in_template_short_name: str/;"	kind:member	line:17
+__init__	../procre_template_writing.py	/^    def __init__(self, triumvirate):$/;"	kind:member	line:119
+__init__	../ressources/archive/to_file_safe.py	/^    def __init__(self, db_loc):$/;"	kind:member	line:34
+__repr__	../procre_template_reading.py	/^    def __repr__(self):$/;"	kind:member	line:116
+__str__	../procre_template_reading.py	/^    def __str__(self):$/;"	kind:member	line:120
+actions_section	../Project_creator_main.py	/^    def actions_section(self):$/;"	kind:member	line:112
+add_boiler	../procre_template_writing.py	/^    def add_boiler(self, in_file_path: str):$/;"	kind:member	line:138
+add_boiler	../procre_template_writing.py	/^    def add_boiler(self, in_folder, in_name, in_extension):$/;"	kind:member	line:54
+add_dummy	../procre_template_writing.py	/^    def add_dummy(self, in_folder, in_name, in_extension):$/;"	kind:member	line:50
+add_file_safe_tbl	../ressources/archive/to_file_safe.py	/^def add_file_safe_tbl(in_bd_instance):$/;"	kind:function	line:10
+add_folder	../procre_template_writing.py	/^    def add_folder(self, in_parent_folder, in_name):$/;"	kind:member	line:46
+add_new_type	../procre_template_writing.py	/^def add_new_type(triumvirate, in_type_name: str, in_type_short_name: str, in_type_comment: str):$/;"	kind:function	line:6
+add_rename	../procre_template_writing.py	/^    def add_rename(self, original_name, new_name):$/;"	kind:member	line:58
+app	../Project_creator_main.py	/^    app = QtWidgets.QApplication(sys.argv)$/;"	kind:variable	line:485
+basegui	../Project_creator_main.py	/^import ui_project_creator as basegui$/;"	kind:namespace	line:15
+boiler_filedialog	../Project_creator_main.py	/^    def boiler_filedialog(self):$/;"	kind:member	line:453
+boiler_to_tree	../Project_creator_main.py	/^    def boiler_to_tree(self):$/;"	kind:member	line:214
+boilers_to_db	../procre_template_writing.py	/^    def boilers_to_db(self):$/;"	kind:member	line:147
+build_the_project	../Project_creator_main.py	/^    def build_the_project(self):$/;"	kind:member	line:145
+build_the_project_ask	../Project_creator_main.py	/^    def build_the_project_ask(self):$/;"	kind:member	line:142
+check_addboiler_button	../Project_creator_main.py	/^    def check_addboiler_button(self):$/;"	kind:member	line:97
+check_adddummy_button	../Project_creator_main.py	/^    def check_adddummy_button(self):$/;"	kind:member	line:94
+check_addfolder_button	../Project_creator_main.py	/^    def check_addfolder_button(self):$/;"	kind:member	line:91
+check_addmainfolder_button	../Project_creator_main.py	/^    def check_addmainfolder_button(self):$/;"	kind:member	line:87
+check_deletebox	../Project_creator_main.py	/^    def check_deletebox(self):$/;"	kind:member	line:287
+check_if_already_exist	../procre_template_reading.py	/^    def check_if_already_exist(self):$/;"	kind:member	line:26
+check_newboiler_button	../Project_creator_main.py	/^    def check_newboiler_button(self):$/;"	kind:member	line:103
+check_newproject_button	../Project_creator_main.py	/^    def check_newproject_button(self):$/;"	kind:member	line:106
+check_newtype_button	../Project_creator_main.py	/^    def check_newtype_button(self):$/;"	kind:member	line:100
+cleanup_temp_files	../procre_template_reading.py	/^    def cleanup_temp_files(self):$/;"	kind:member	line:100
+clear_dicts	../procre_template_writing.py	/^    def clear_dicts(self):$/;"	kind:member	line:107
+clear_whole_tree	../Project_creator_main.py	/^    def clear_whole_tree(self):$/;"	kind:member	line:315
+confgui	../Project_creator_main.py	/^import ui_conf_dialog as confgui$/;"	kind:namespace	line:17
+conspire_the_triumvirate	../Project_creator_main.py	/^def conspire_the_triumvirate():$/;"	kind:function	line:19
+create_boilers	../procre_template_reading.py	/^    def create_boilers(self):$/;"	kind:member	line:68
+create_dummies	../procre_template_reading.py	/^    def create_dummies(self):$/;"	kind:member	line:56
+create_folder	../procre_template_reading.py	/^    def create_folder(self):$/;"	kind:member	line:50
+create_ini	../procre_template_writing.py	/^    def create_ini(self):$/;"	kind:member	line:78
+create_newboiler_validator	../Project_creator_main.py	/^    def create_newboiler_validator(self):$/;"	kind:member	line:468
+create_newtype_validator	../Project_creator_main.py	/^    def create_newtype_validator(self):$/;"	kind:member	line:460
+create_the_template	../Project_creator_main.py	/^    def create_the_template(self):$/;"	kind:member	line:190
+create_whole_project	../procre_template_reading.py	/^    def create_whole_project(self):$/;"	kind:member	line:103
+database_create_connect	../procre_database_handling.py	/^def database_create_connect(triumvirate, overwrite=False, real_overwrite=False):$/;"	kind:function	line:4
+delete_item	../Project_creator_main.py	/^    def delete_item(self):$/;"	kind:member	line:238
+delete_tree_item	../Project_creator_main.py	/^    def delete_tree_item(self):$/;"	kind:member	line:324
+dh	../Project_creator_main.py	/^import procre_database_handling as dh$/;"	kind:namespace	line:12
+drop_whole_db	../Project_creator_main.py	/^    def drop_whole_db(self):$/;"	kind:member	line:444
+dummy_to_tree	../Project_creator_main.py	/^    def dummy_to_tree(self):$/;"	kind:member	line:198
+feedback	../Project_creator_main.py	/^    def feedback(self, in_message):$/;"	kind:member	line:450
+fill_delete_combo	../Project_creator_main.py	/^    def fill_delete_combo(self):$/;"	kind:member	line:254
+get_all_boiler_in_folder	../procre_template_writing.py	/^    def get_all_boiler_in_folder(self, in_file_path=None):$/;"	kind:member	line:126
+get_item_from_db	../Project_creator_main.py	/^    def get_item_from_db(self, in_type):$/;"	kind:member	line:272
+get_normal_path	../tempstore.py	/^    def get_normal_path(self):$/;"	kind:function	line:17
+get_normal_path	../ui_conf_dialog.py	/^    def get_normal_path(self):$/;"	kind:member	line:64
+get_prefix_data	../procre_template_writing.py	/^    def get_prefix_data(self):$/;"	kind:member	line:35
+get_repo_path	../tempstore.py	/^    def get_repo_path(self):$/;"	kind:function	line:20
+get_repo_path	../ui_conf_dialog.py	/^    def get_repo_path(self):$/;"	kind:member	line:67
+gil	../Project_creator_main.py	/^import self_created.gid_land as gil$/;"	kind:namespace	line:3
+gil	../procre_database_handling.py	/^import self_created.gid_land as gil$/;"	kind:namespace	line:1
+gil	../procre_template_reading.py	/^import self_created.gid_land as gil$/;"	kind:namespace	line:4
+gil	../procre_template_writing.py	/^import self_created.gid_land as gil$/;"	kind:namespace	line:3
+gil	../ressources/archive/to_file_safe.py	/^import self_created.gid_land as gil$/;"	kind:namespace	line:4
+gil	../ui_conf_dialog.py	/^import self_created.gid_land as gil$/;"	kind:namespace	line:16
+giq	../Project_creator_main.py	/^import self_created.gid_qt as giq$/;"	kind:namespace	line:4
+giq	../ui_conf_dialog.py	/^import self_created.gid_qt as giq$/;"	kind:namespace	line:17
+giq	../ui_project_creator.py	/^import self_created.gid_qt as giq$/;"	kind:namespace	line:11
+is_it_unique	../Project_creator_main.py	/^    def is_it_unique(self, in_type, in_name, in_secondary):$/;"	kind:member	line:410
+line_empty_check	../Project_creator_main.py	/^    def line_empty_check(self):$/;"	kind:member	line:68
+littleDataBaser	../ressources/archive/to_file_safe.py	/^class littleDataBaser:$/;"	kind:class	line:33
+make_Icons	../Project_creator_main.py	/^    def make_Icons(self, in_path, in_size_1, in_size_2):$/;"	kind:member	line:405
+make_needed_tables	../procre_database_handling.py	/^def make_needed_tables(triumvirate):$/;"	kind:function	line:18
+make_sure_clear_tree	../Project_creator_main.py	/^    def make_sure_clear_tree(self):$/;"	kind:member	line:155
+make_sure_delete	../Project_creator_main.py	/^    def make_sure_delete(self):$/;"	kind:member	line:233
+open_configurator	../Project_creator_main.py	/^    def open_configurator(self):$/;"	kind:member	line:135
+open_db	../ressources/archive/to_file_safe.py	/^    def open_db(self):$/;"	kind:member	line:38
+parse_the_tree	../Project_creator_main.py	/^    def parse_the_tree(self):$/;"	kind:member	line:159
+procre_database_handling.py	../procre_database_handling.py	1;"	kind:file	line:1
+procre_template_reading.py	../procre_template_reading.py	1;"	kind:file	line:1
+procre_template_writing.py	../procre_template_writing.py	1;"	kind:file	line:1
+ptr	../Project_creator_main.py	/^import procre_template_reading as ptr$/;"	kind:namespace	line:13
+ptw	../Project_creator_main.py	/^import procre_template_writing as ptw$/;"	kind:namespace	line:14
+qCleanupResources	../ui_Project_creator_style_rc.py	/^def qCleanupResources():$/;"	kind:function	line:50340
+qInitResources	../ui_Project_creator_style_rc.py	/^def qInitResources():$/;"	kind:function	line:50337
+qt_resource_data	../ui_Project_creator_style_rc.py	/^qt_resource_data = b"\\$/;"	kind:variable	line:11
+qt_resource_name	../ui_Project_creator_style_rc.py	/^qt_resource_name = b"\\$/;"	kind:variable	line:48619
+qt_resource_struct	../ui_Project_creator_style_rc.py	/^    qt_resource_struct = qt_resource_struct_v1$/;"	kind:variable	line:50332
+qt_resource_struct	../ui_Project_creator_style_rc.py	/^    qt_resource_struct = qt_resource_struct_v2$/;"	kind:variable	line:50335
+qt_resource_struct_v1	../ui_Project_creator_style_rc.py	/^qt_resource_struct_v1 = b"\\$/;"	kind:variable	line:49636
+qt_resource_struct_v2	../ui_Project_creator_style_rc.py	/^qt_resource_struct_v2 = b"\\$/;"	kind:variable	line:49868
+qt_version	../ui_Project_creator_style_rc.py	/^qt_version = [int(v) for v in QtCore.qVersion().split('.')]$/;"	kind:variable	line:50329
+rcc_version	../ui_Project_creator_style_rc.py	/^    rcc_version = 1$/;"	kind:variable	line:50331
+read_as_binary_to_db	../ressources/archive/to_file_safe.py	/^def read_as_binary_to_db(in_bd_instance, file_loc):$/;"	kind:function	line:18
+read_template	../procre_template_reading.py	/^    def read_template(self, in_section=None, in_key=None):$/;"	kind:member	line:29
+remove_from_dict	../procre_template_writing.py	/^    def remove_from_dict(self, in_type, in_name, in_extension=None):$/;"	kind:member	line:61
+rename_main_folder_at_end	../procre_template_reading.py	/^    def rename_main_folder_at_end(self):$/;"	kind:member	line:92
+replace_normal_outputpath	../tempstore.py	/^    def replace_normal_outputpath(self, in_path):$/;"	kind:function	line:11
+replace_repo_outputpath	../tempstore.py	/^    def replace_repo_outputpath(self, in_path):$/;"	kind:function	line:14
+retranslateUi	../ui_conf_dialog.py	/^    def retranslateUi(self, Dialog):$/;"	kind:member	line:82
+retranslateUi	../ui_project_creator.py	/^    def retranslateUi(self, MainWindow):$/;"	kind:member	line:604
+save_to_db	../procre_template_writing.py	/^    def save_to_db(self):$/;"	kind:member	line:99
+set_template_main_folder	../Project_creator_main.py	/^    def set_template_main_folder(self):$/;"	kind:member	line:356
+set_tree_item	../Project_creator_main.py	/^    def set_tree_item(self, in_name, in_type, in_parent, accept_top=False):$/;"	kind:member	line:372
+setupUi	../ui_conf_dialog.py	/^    def setupUi(self, Dialog):$/;"	kind:member	line:20
+setupUi	../ui_project_creator.py	/^    def setupUi(self, MainWindow):$/;"	kind:member	line:19
+temp_process_template	../procre_template_reading.py	/^    def temp_process_template(self):$/;"	kind:member	line:40
+template_add_folder_to_tree	../Project_creator_main.py	/^    def template_add_folder_to_tree(self):$/;"	kind:member	line:341
+tempstore.py	../tempstore.py	1;"	kind:file	line:1
+the_process	../ressources/archive/to_file_safe.py	/^def the_process(in_file):$/;"	kind:function	line:44
+to_file_safe.py	../ressources/archive/to_file_safe.py	1;"	kind:file	line:1
+ui	../Project_creator_main.py	/^    ui = ProjectCreatorMainGUI(MainWindow)$/;"	kind:variable	line:487
+ui_Project_creator_style_rc.py	../ui_Project_creator_style_rc.py	1;"	kind:file	line:1
+ui_conf_dialog.py	../ui_conf_dialog.py	1;"	kind:file	line:1
+ui_project_creator.py	../ui_project_creator.py	1;"	kind:file	line:1
+update_all	../Project_creator_main.py	/^    def update_all(self):$/;"	kind:member	line:51
+update_boiler_combo	../Project_creator_main.py	/^    def update_boiler_combo(self):$/;"	kind:member	line:64
+update_template_select_combo	../Project_creator_main.py	/^    def update_template_select_combo(self):$/;"	kind:member	line:56
+update_template_type_combo	../Project_creator_main.py	/^    def update_template_type_combo(self):$/;"	kind:member	line:60
+whole_db_drop_ask_I	../Project_creator_main.py	/^    def whole_db_drop_ask_I(self):$/;"	kind:member	line:433
+whole_db_drop_ask_II	../Project_creator_main.py	/^    def whole_db_drop_ask_II(self):$/;"	kind:member	line:438
+write_into_user_config	../tempstore.py	/^    def write_into_user_config(self):$/;"	kind:function	line:4
+write_into_user_config	../ui_conf_dialog.py	/^    def write_into_user_config(self, accept_thing):$/;"	kind:member	line:70
